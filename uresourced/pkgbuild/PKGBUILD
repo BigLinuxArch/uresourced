@@ -25,3 +25,4 @@ package() {
   cd "$pkgname-v$pkgver"
   install -Dm644 NEWS.md README -t "$pkgdir/usr/share/doc/$pkgname"
 }
+
